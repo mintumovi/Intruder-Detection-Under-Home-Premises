@@ -1,6 +1,6 @@
 # Mount the Google Drive
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 # Install necessary libraries
 !pip install scikit-learn
@@ -14,7 +14,7 @@ from sklearn.cluster import KMeans
 from matplotlib import pyplot as plt
 
 # Define the directory where the images are stored
-img_dir =  "/content/drive/MyDrive/Sample Dataset/"
+img_dir =  "<path_to_your_repository>/Sample Dataset/"
 
 # Read in the images from the directory
 images = []
